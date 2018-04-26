@@ -1,12 +1,12 @@
 ##1
 
-kwartal_1 <- c("Styczeñ„", "Luty", "Marzec")
+kwartal_1 <- c("StyczeÅ„", "Luty", "Marzec")
 
-kwartal_2 <- c("Kwiecieñ„", "Maj", "Czerwiec")
+kwartal_2 <- c("KwiecieÅ„", "Maj", "Czerwiec")
 
-kwartal_3 <- c("Lipiec", "Sierpieñ„", "Wrzesieñ„")
+kwartal_3 <- c("Lipiec", "SierpieÅ„", "WrzesieÅ„")
 
-kwartal_4 <- c("PaŸdziernk", "Listopad", "Grudzieñ„")
+kwartal_4 <- c("PaÅºdziernk", "Listopad", "GrudzieÅ„")
 
 ##2-4
 rok <- c(kwartal_1, kwartal_2, kwartal_3, kwartal_4)
@@ -28,8 +28,8 @@ e <- nchar(x,type="chars", allowNA = FALSE, keepNA= NA)
 mean(e)  
 sd(e)  
 
-zimowe <- c("Grudzieñ„", "Styczeñ„", "Luty", "Marzec")
-z <- c("Grudzieñ„", "Styczeñ„", "Luty", "Marzec")
+zimowe <- c("GrudzieÅ„", "StyczeÅ„", "Luty", "Marzec")
+z <- c("GrudzieÅ„", "StyczeÅ„", "Luty", "Marzec")
 f <- nchar(z, type="chars", allowNA= FALSE, keepNA=NA)
 
 mean(f)
