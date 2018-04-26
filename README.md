@@ -1,4 +1,4 @@
 # tipn_zad_szabat
 
-To jest miejsce na umieszczenie zadan na przedmiot Technologie informatyczne w pracy naukowe prowadzone na Gdanskim Uniwersytecie Medycznym.
+To jest miejsce na umieszczenie zadań na przedmiot Technologie informatyczne w pracy naukowej prowadzone na Gdańskim Uniwersytecie Medycznym.
 
