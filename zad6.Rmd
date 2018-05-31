@@ -1,0 +1,59 @@
+---
+author: "Martyna Szabat"
+date: "31 maja 2018"
+title: "Snowboard"
+output: 
++  html_document:
++    theme: united
++    highlight: espresso
++    df_print: paged
+---
+# Ale co to jest?
+
+**Snowboarding** – sport zimowy polegający na jeździe lub wykonywaniu manewrów na desce snowboardowej. Za początek snowboardingu można uznać rok 1965, kiedy Sherman Poppen wymyślił "snurfera", choć zjeżdżanie po zaśnieżonym stoku na jednej desce było praktykowane już wcześniej. Dyscyplina wprowadzona została do programu Zimowych Igrzysk Olimpijskich w 1998 roku (konkurencje slalom gigant i half-pipe).
+
+
+### Z czego składa się deska?
+
+ - wiązanie 
+ - strapy
+    + *przydałyby się też buty*
+ - blat
+ 
+### Konkurencje dla snowbordzistów:
+
+  1. Half-pipe 
+  2. Slalom gigant równoległy 
+  3. Snowboard cross 
+  4. Slopestyle 
+  5. Slalom równoległy 
+  6. Big Air 
+ 
+ A tutaj nudna lista obrońców tytułu - [nic ciekawego](https://pl.wikipedia.org/wiki/Puchar_%C5%9Awiata_w_snowboardzie_2017/2018)
+ 
+ | Stopień zaawansowania  |Rodzaj deski   | 
+|:---:|:---:|
+| Początkujący |All Mountain |  
+| Średniozaawansowany  | All Mountain, Freestyle|  
+|  Doświadczony |Freeride, Jibbing    |   
+| Ekspert| Freeride, Buttering| 
+
+#### Sprawdźmy jak zarabiają zawodnicy
+`To nie są duże kwoty`
+````{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+View(diamonds)
+print(diamonds)
+```
+
+```{r}
+ggplot(data = diamonds) +
+  geom_point(mapping= aes(x=carat, y=price))+
+  facet_wrap(~cut, nrow=2)
+```
+
+![  ](deska.jpg)
