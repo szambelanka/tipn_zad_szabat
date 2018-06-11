@@ -18,7 +18,8 @@ movies %>% select(title, year, budget) %>% arrange(desc(budget))
 
 # Zad_5-4
 
-movies %>% select(Animation, year) %>% filter(year == 1990)
+filter(movies, Animation == 1, year >=1990 & year < 2000) %>%
+  arrange(desc(rating))
 
 # Zad_5-5
 
